@@ -1,0 +1,36 @@
+.img{
+    border-radius: 0 50px 0 50px;
+    border: 1px solid;
+    border-color: black;
+    height: 200px;
+    width: 250px;
+}
+.img.tall{
+    height: 250px;
+    width: auto;
+}
+.img.large{
+    height: 250px;
+    width: auto;
+}
+body,
+h1{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+
+}
+h1{
+    text-align: center;
+}
+div{
+    border: 2px solid;
+    border-color: rgb(104, 80, 50);
+    border-radius: 0 50px 0 50px;
+    padding: 5px 10px 5px 10px;
+}
+ul{
+   list-style: none;
+}
+li{
+    text-align: left;
+}

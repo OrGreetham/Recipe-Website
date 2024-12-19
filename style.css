@@ -1,18 +1,49 @@
 .img{
     border-radius: 0 50px 0 50px;
     border: 1px solid;
-    border-color: black;
+    border-color: rgb(104, 80, 50);
     height: 200px;
     width: 250px;
+    border-inline-start-width: 3px;
+    border-inline-end-width: 3px;
 }
 .img.tall{
     height: 250px;
     width: auto;
 }
-.img.large{
-    height: 250px;
-    width: auto;
+.img.wide{
+    height: auto;
+    width: 250px;
 }
+#foreground-pizza{
+    background-image: url(./images/homemade-pizza.jpeg);
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 160px;
+    border-radius: 0 50px 0 50px;
+    border: 1px solid;
+    border-color: rgb(54, 42, 27);
+    border-inline-start-width: 3px;
+    border-inline-end-width: 3px;
+}
+#background-pizza{
+    background-image: url(./images/pizza-2.jpeg);
+    height: 250px;
+    left: 140px;
+    position: absolute;
+    top: 413px;
+    width: auto;
+    border-radius: 0 50px 0 50px;
+    border: 1px solid;
+    border-color: rgb(104, 80, 50);
+    border-inline-start-width: 3px;
+    border-inline-end-width: 3px;
+}
+
+
+
 body,
 h1{
     background-color: antiquewhite;
@@ -27,6 +58,9 @@ div{
     border-color: rgb(104, 80, 50);
     border-radius: 0 50px 0 50px;
     padding: 5px 10px 5px 10px;
+    border-inline-start-width: 5px;
+    border-inline-end-width: 5px;
+    max-width: 1000px;
 }
 ul{
    list-style: none;
@@ -34,3 +68,31 @@ ul{
 li{
     text-align: left;
 }
+header{
+    margin: 0;
+}  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(190, 148, 95);
+  }
+  
+  .topnav a {
+    float: left;
+    color: beige;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 0 20px 0 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(138, 107, 70);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:  rgb(138, 107, 70);
+    color: beige; 
+    border-radius: 0 20px 0 20px;
+  }
